@@ -17,18 +17,17 @@
                 <h1>Login</h1>
                 <p>Faça seu login para continuar navegando pelo site.</p>
                 <form action="login.php" method="post">
-                    <p class="login">
-                        <label for="iemail"><span id="person" class="material-icons">person</span></label>
-                        <input type="email" name="email" id="iemail" requidred>
-
-                    </p><br>
-                    <p class="login">
-                        <label for="isenha"><span id="key" class="material-icons">key</span></label>
-                        <input type="password" name="senha" id="isenha" required min="8">
-                    </p><br>
-                    <p>
-                        <input id="entrar" type="submit" value="ENTRAR">
-                    </p>
+                   <div class="login">
+                        <span class="material-icons">person</span>
+                        <input type="email" name="login" id="ilogin">
+                   </div>
+                   <div class="login">
+                        <span class="material-icons">key</span>
+                        <input type="password" name="senha" id="isenha">
+                   </div>
+                   <div>
+                        <input type="submit" value="ENVIAR">
+                   </div>
                 </form>
             </div>
         </section>
