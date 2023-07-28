@@ -1,0 +1,87 @@
+@charset "UTF-8";
+
+/*
+pequnas telas
+celular = 600px até 768px
+tablet = 768 até 992px 
+desktop = 992px até 1200px
+grandes telas = acima de 1200px
+
+typical device brakpoints
+pego na internet
+
+Dispositivos móveis – 320px — 480px.
+iPads, tablets – 481px – 768px.
+Telas pequenas, laptops – 769px – 1024px.
+Desktops, telas grandes – 1025px — 1200px.
+Telas extragrandes, TV – 1201px e muito mais.
+*/
+
+@media screen and (min-width: 668px) and (max-width: 900px) {
+    body {
+        background-image: linear-gradient(to top, rgb(116, 142, 151), rgba(133, 15, 133, 0.432));
+    }
+
+    main > section {
+        width: 600px;
+    }
+
+    section > div#imagem {
+        float: left;
+        width: 50%;
+        height: 100%;
+    }
+
+    div form { 
+        float: right;
+        width: 50%;
+    }
+
+    form input[type=submit] {
+        width: 90%;
+    }
+
+    form a { 
+        width: 90%;
+    }
+
+}
+
+@media screen and (min-width: 901px) {
+    body {
+        background-image: linear-gradient(to top, rgb(116, 142, 151), rgba(133, 15, 133, 0.432));
+    }
+
+    div#formulario > h1 {
+        font-size: 2em;
+        padding: 10px;    
+    }
+
+    p { 
+        font-size: 1em;
+    }
+
+    main > section {
+        width: 600px;
+    }
+
+    section > div#imagem {
+        float: left;
+        width: 50%;
+    }
+
+    div form {
+        float: right;
+        width: 50%;
+    }
+
+    form input[type=submit] {
+        width: 90%;
+    }
+
+    form a { 
+        width: 90%; 
+    }
+
+}
+
